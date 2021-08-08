@@ -1,6 +1,7 @@
 table
 {
     border: 2px solid;
+    width: 70%;
 }
 table th
 {
@@ -9,4 +10,8 @@ table th
 table td
 {
     border: 2px solid;
+}
+fieldset
+{
+    width: 25%;
 }

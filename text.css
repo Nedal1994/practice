@@ -10,8 +10,16 @@ table th
 table td
 {
     border: 2px solid;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
 }
 fieldset
 {
     width: 25%;
+}
+img
+{
+    width: 400px;
+    height: 400px;
 }

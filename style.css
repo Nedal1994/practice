@@ -1,0 +1,126 @@
+#headerline
+{
+    height: 15px;
+    width: 75%;
+    background-image: repeating-linear-gradient(45deg, rgb(0, 0, 0) 10px, rgb(0, 0, 0) 12px, transparent 12px, transparent 18px);
+}
+#line
+{
+    height: 15px;
+    width: 75%;
+    background-image: repeating-linear-gradient(45deg, rgb(0, 0, 0) 10px, rgb(0, 0, 0) 12px, transparent 12px, transparent 18px);
+}
+.top
+{
+    text-align: center;
+    position: relative;
+    right: 30%;
+    padding-top: 60px;
+}
+#Delicious
+{
+    font-size: 36px; 
+    font-weight: bolder; 
+    position: relative; 
+    bottom: 8px;
+}
+#social
+{
+    text-align: right;
+    position: relative;
+    left: 17%;
+    bottom: 30px;
+}
+#topic
+{
+    position: relative;
+    left: 15%;
+}
+#topic label
+{
+    position: relative;
+    bottom:10px;
+}
+#print
+{
+    text-align: right;
+    position: relative;
+    right: 13%;
+    bottom: 40px;
+}
+#chocolate-image
+{
+    display: block;
+    margin: auto;
+}
+#description
+{
+    text-align: justify;
+    position: relative;
+    left: 22%;
+}
+fieldset
+{
+    display: block;
+    margin: auto;
+    background-image: url('img copy/list-bg.png');
+    width: 50%;
+    height: 150px;
+}
+#ingredients1
+{
+    position: relative;
+    left: 20%;
+    top: 20px;
+}
+#ingredients2
+{
+    position: relative;
+    left:30%;
+    bottom: 118px;
+}
+#details
+{
+    position: relative;
+    left: 12%;
+}
+#name
+{
+    font-size: 18px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 40px;
+}
+#paragraph
+{
+    position: relative;
+    bottom: 50px;
+    left: 80px;
+}
+button
+{
+    float: right;
+    position: relative;
+    right: 25%;
+    bottom: 140px;
+    padding:10px
+}
+#footerline
+{
+    width: 75%;
+    position: relative;
+    background-color: grey;
+    left: 50px;
+}
+#small-logo
+{
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom:27px;
+    left:50px;
+}
+footer
+{
+    text-align: center;
+}

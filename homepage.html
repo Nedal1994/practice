@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Homepage</title>
+</head>
+<body>
+    <main>
+        <form id="fruit">
+            <fieldset style="width: 25%;">
+                <legend>Order fruits</legend>
+                <label>Name</label>
+                <input type="text" id="nameField" name="nameField"><br><br>
+
+                <label>Pick any fruits</label>
+                <select name="fruitType">
+                    <option value="apple">Apple</option>
+                    <option value="pear">Pear</option>
+                    <option value="pomegranate">Pomegranate</option>
+                    <option value="orange">Orange</option>
+                    <option value="banana">Banana</option>
+                </select>
+<br><br>
+                <label>Size</label>
+                <select name="size">
+                    <option value="1kg">1KG</option>
+                    <option value="2kg">2KG</option>
+                    <option value="3kg">3KG</option>
+                    <option value="4kg">4KG</option>
+                    <option value="5kg">5KG</option>
+                </select>
+<br><br>
+                <button type="submit" id="submit">Confirm</button>
+
+                <button id="remove">Remove</button>
+            </fieldset>
+        </form>
+
+            <ul id="orders">
+
+            </ul>
+    </main>
+</body>
+<script src="test.js"></script>
+</html>

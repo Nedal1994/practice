@@ -105,6 +105,7 @@ function userClick(event)
     }
     else
     {
+        saveStorage()
         buttonElement.hidden=false;
         buttonElement.addEventListener('click',showList)
 
@@ -127,3 +128,20 @@ function userClick(event)
     }
 }
 render()
+
+function saveStorage()
+{
+    let stringArr=JSON.stringify(products)
+    localStorage.setItem('Products',stringArr)
+}
+
+function loadStorage()
+{
+    let data=localStorage.getItem('Products')
+    let parsedArr=JSON.parse(data)
+    if(parsedArr !== null)
+    {
+        products=parsedArr
+    }
+}
+loadStorage()

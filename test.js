@@ -42,7 +42,6 @@ function loadStorage()
     else
     {
         new Fruit('Nedal','Apple','4KG')
-        render()
     }
 }
 
@@ -62,13 +61,6 @@ function handleSubmit(event)
     render()
 }
 
-let removeButton = document.getElementById('remove')
-removeButton.addEventListener('click',clearStorage)
-
-function clearStorage()
-{
-    localStorage.clear()
-}
 
 function render()
 {

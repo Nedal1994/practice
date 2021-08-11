@@ -28,25 +28,28 @@ function Items(name,src)
     // namesArr.push(this)
 }
 
-new Items('Bags','img/bag.jpg')
-new Items('Banana','img/banana.jpg')
-new Items('Bathroom','img/bathroom.jpg')
-new Items('Boots','img/boots.jpg')
-new Items('Breakfast','img/breakfast.jpg')
-new Items('Bubblegum','img/bubblegum.jpg')
-new Items('Chair','img/chair.jpg')
-new Items('cthulhu','img/cthulhu.jpg')
-new Items('Dog duck','img/dog-duck.jpg')
-new Items('Dragon','img/dragon.jpg')
-new Items('Pen','img/pen.jpg')
-new Items('Pet sweep','img/pet-sweep.jpg')
-new Items('Scissors','img/scissors.jpg')
-new Items('Shark','img/shark.jpg')
-new Items('Sweep','img/sweep.png')
-new Items('Tauntaun','img/tauntaun.jpg')
-new Items('Unicorn','img/unicorn.jpg')
-new Items('Water can','img/water-can.jpg')
-new Items('Wine glass','img/wine-glass.jpg')
+
+
+    new Items('Bags','img/bag.jpg')
+    new Items('Banana','img/banana.jpg')
+    new Items('Bathroom','img/bathroom.jpg')
+    new Items('Boots','img/boots.jpg')
+    new Items('Breakfast','img/breakfast.jpg')
+    new Items('Bubblegum','img/bubblegum.jpg')
+    new Items('Chair','img/chair.jpg')
+    new Items('cthulhu','img/cthulhu.jpg')
+    new Items('Dog duck','img/dog-duck.jpg')
+    new Items('Dragon','img/dragon.jpg')
+    new Items('Pen','img/pen.jpg')
+    new Items('Pet sweep','img/pet-sweep.jpg')
+    new Items('Scissors','img/scissors.jpg')
+    new Items('Shark','img/shark.jpg')
+    new Items('Sweep','img/sweep.png')
+    new Items('Tauntaun','img/tauntaun.jpg')
+    new Items('Unicorn','img/unicorn.jpg')
+    new Items('Water can','img/water-can.jpg')
+    new Items('Wine glass','img/wine-glass.jpg')
+
 
 function getnumbers()
 {
@@ -141,7 +144,8 @@ function loadStorage()
     let parsedArr=JSON.parse(data)
     if(parsedArr !== null)
     {
-        products=parsedArr
+        parsedArr = products
     }
+
 }
 loadStorage()
